@@ -13,8 +13,8 @@ public class Main {
 
     }
 /**
- * 
- * @param cantidad 
+ * funcion de operativa cuenta
+ * @param cantidad (float)
  */
     public static void operativa_cuenta(float cantidad) {
         cuenta1 = new CCuenta("Antonio López", "1000-2365-85-1230456789", 2500, 0);
@@ -33,5 +33,4 @@ public class Main {
             System.out.print("Fallo al ingresar");
         }
     }
-    
 }
